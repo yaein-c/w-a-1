@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Asap:wght@600&display=swap');
+
+* {
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    text-align: center;
+    font-family: Asap, sans-serif;
+}
+
+header {
+    background: white;
+}
+
+header > h1 {
+    color: black;
+    padding: 20px;
+}
+
+body {
+    background: black;
+    color: white;
+    font-size: 30px;
+}
+
+.score-board {
+    border: 3px solid white;
+    width: 200px;
+    margin: 20px auto;
+    font-size: 46px;
+    border-radius: 10px;
+    padding: 15px 20px;
+    position: relative;
+}
+
+.badge {
+    background: tomato;
+    color: white;
+    font-size: 18px;
+    padding: 3px 12 px;
+}
+
+#user-label {
+    position: absolute;
+    top: 20px;
+    left: -20px;
+}
+
+#computer-label {
+    position: absolute;
+    top: 20px;
+    right: -20px;
+}
+
+.result {
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.choices {
+    margin: 50px 0;
+}
+.choice {
+    display: inline-block;
+    border: 30px solid white;
+    border-radius: 50%;
+    margin: 0 15px;
+    transition: all 0.3s ease;
+}
+
+.choice:hover {
+    cursor: pointer;
+    border: 30px solid gray;
+}
